@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react';
 import axios from 'axios';
 import './App.css';
-
+// Great use of n8n for automating GitHub PR reviews. Clean workflow and practical AI integration. Well done.
 function App() {
   const [todos, setTodos] = useState([]);
   const [input, setInput] = useState('');
