@@ -8,7 +8,7 @@ function App() {
   const [loading, setLoading] = useState(true);
 
   const API_URL = 'http://localhost:5000/api/todos';
-
+// This is cool. n8n + GitHub + AI is a powerful combo.   
   useEffect(() => {
     fetchTodos();
   }, []);
